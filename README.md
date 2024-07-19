@@ -28,7 +28,7 @@ cd <repo base>
 virtualenv -p python3.10 .venv
 . .venv/bin/activate
 pip install -r requirements.txt
-export PYTONPATH=<repo base>
+export PYTHONPATH=<repo base>
 ```
 
 ## STORAGE
