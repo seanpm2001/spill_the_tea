@@ -110,7 +110,7 @@ Organize images as described above:
 
 Run the vendor/platform-specific extractor:
 ```
-$ sudo python xiaomi/mediatek/extracttas.py --tas -f /fw/xiaomi/dandelion/global/V12.0.15.0.QCDMIXM/dandelion_global_images_V12.0.15.0.QCDMIXM_20210701.0000.00_10.0_global_f2aa7fee5c.tgz -o /fw/xiaomi/dandelion/global/V12.0.15.0.QCDMIXM/
+$ python xiaomi/mediatek/extracttas.py --tas -f /fw/xiaomi/dandelion/global/V12.0.15.0.QCDMIXM/dandelion_global_images_V12.0.15.0.QCDMIXM_20210701.0000.00_10.0_global_f2aa7fee5c.tgz -o /fw/xiaomi/dandelion/global/V12.0.15.0.QCDMIXM/
 ```
 
 After extraction, there should be a directory containing the TAs:
@@ -142,7 +142,7 @@ Organize images as described above:
 
 Run the vendor/platform-specific extractor:
 ```
-$ sudo python samsung/teegris/extracttas.py --tas -f /fw/samsung/SM-G973F/XXV/G973FXXUFHVG4/SAMFW.COM_SM-G973F_XXV_G973FXXUFHVG4_fac.zip -o /fw/samsung/SM-G973F/XXV/G973FXXUFHVG4/G973FXXSEGVA9
+$ python samsung/teegris/extracttas.py --tas -f /fw/samsung/SM-G973F/XXV/G973FXXUFHVG4/SAMFW.COM_SM-G973F_XXV_G973FXXUFHVG4_fac.zip -o /fw/samsung/SM-G973F/XXV/G973FXXUFHVG4/G973FXXSEGVA9
 ```
 
 After extraction, there should be a directory containing the TAs:

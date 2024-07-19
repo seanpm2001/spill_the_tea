@@ -336,7 +336,6 @@ def extract(firmware_path, out_dir, tas=False):
     # normalize fw path
     firmware_path = os.path.normpath(firmware_path)
     log.debug(f"Extracting {firmware_path}...")
-    breakpoint()
     if not os.path.exists(out_dir):
         log.warning("Output dir {} does not exist. Creating...".format(out_dir))
         os.mkdir(out_dir)
