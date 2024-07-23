@@ -83,6 +83,7 @@ To extract TAs from a firmware image, you can use the vendor-/platform-specific 
 ./xiaomi/qualcomm/extracttas.py
 ./xiaomi/mediatek/extracttas.py
 ```
+These scripts might need privileged access. In this case, the user will be prompted for the `sudo` password.
 
 To parse the TA binary headers, you can use the TEE-specific `*parse.py` scripts:
 
